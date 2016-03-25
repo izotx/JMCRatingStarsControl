@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402A2A711CA59CE300BC6077 /* Customizing Control.png in Resources */ = {isa = PBXBuildFile; fileRef = 402A2A701CA59CE300BC6077 /* Customizing Control.png */; };
+		402A2A731CA59CF300BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.18.56 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 402A2A721CA59CF300BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.18.56 AM.png */; };
+		402A2A751CA59D0B00BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.21.25 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 402A2A741CA59D0B00BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.21.25 AM.png */; };
+		40B020361CA5950500E2349E /* JMCRatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B020351CA5950500E2349E /* JMCRatingControl.swift */; };
+		B6AF18331CA4E88E0006B02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF18321CA4E88E0006B02D /* AppDelegate.swift */; };
+		B6AF18351CA4E88E0006B02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AF18341CA4E88E0006B02D /* ViewController.swift */; };
+		B6AF18381CA4E88E0006B02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AF18361CA4E88E0006B02D /* Main.storyboard */; };
+		B6AF183A1CA4E88E0006B02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AF18391CA4E88E0006B02D /* Assets.xcassets */; };
+		B6AF183D1CA4E88E0006B02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AF183B1CA4E88E0006B02D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		402A2A701CA59CE300BC6077 /* Customizing Control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Customizing Control.png"; sourceTree = "<group>"; };
+		402A2A721CA59CF300BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.18.56 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot Mar 25, 2016, 11.18.56 AM.png"; sourceTree = "<group>"; };
+		402A2A741CA59D0B00BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.21.25 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot Mar 25, 2016, 11.21.25 AM.png"; sourceTree = "<group>"; };
+		40B020351CA5950500E2349E /* JMCRatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JMCRatingControl.swift; path = JMCRatingControl/JMCRatingControl.swift; sourceTree = "<group>"; };
+		B6AF182F1CA4E88E0006B02D /* JMCRatingControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMCRatingControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AF18321CA4E88E0006B02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6AF18341CA4E88E0006B02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6AF18371CA4E88E0006B02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6AF18391CA4E88E0006B02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AF183C1CA4E88E0006B02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6AF183E1CA4E88F0006B02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AF182C1CA4E88E0006B02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6AF18261CA4E88E0006B02D = {
+			isa = PBXGroup;
+			children = (
+				B6AF18311CA4E88E0006B02D /* ControlTest */,
+				B6AF18301CA4E88E0006B02D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AF18301CA4E88E0006B02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF182F1CA4E88E0006B02D /* JMCRatingControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AF18311CA4E88E0006B02D /* ControlTest */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF18321CA4E88E0006B02D /* AppDelegate.swift */,
+				B6AF18341CA4E88E0006B02D /* ViewController.swift */,
+				40B020351CA5950500E2349E /* JMCRatingControl.swift */,
+				B6AF18361CA4E88E0006B02D /* Main.storyboard */,
+				402A2A721CA59CF300BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.18.56 AM.png */,
+				402A2A701CA59CE300BC6077 /* Customizing Control.png */,
+				402A2A741CA59D0B00BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.21.25 AM.png */,
+				B6AF18391CA4E88E0006B02D /* Assets.xcassets */,
+				B6AF183B1CA4E88E0006B02D /* LaunchScreen.storyboard */,
+				B6AF183E1CA4E88F0006B02D /* Info.plist */,
+			);
+			path = ControlTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AF182E1CA4E88E0006B02D /* JMCRatingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AF18411CA4E88F0006B02D /* Build configuration list for PBXNativeTarget "JMCRatingControl" */;
+			buildPhases = (
+				B6AF182B1CA4E88E0006B02D /* Sources */,
+				B6AF182C1CA4E88E0006B02D /* Frameworks */,
+				B6AF182D1CA4E88E0006B02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMCRatingControl;
+			productName = ControlTest;
+			productReference = B6AF182F1CA4E88E0006B02D /* JMCRatingControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AF18271CA4E88E0006B02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = izotx;
+				TargetAttributes = {
+					B6AF182E1CA4E88E0006B02D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B6AF182A1CA4E88E0006B02D /* Build configuration list for PBXProject "JMCRatingControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6AF18261CA4E88E0006B02D;
+			productRefGroup = B6AF18301CA4E88E0006B02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AF182E1CA4E88E0006B02D /* JMCRatingControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AF182D1CA4E88E0006B02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402A2A751CA59D0B00BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.21.25 AM.png in Resources */,
+				B6AF183D1CA4E88E0006B02D /* LaunchScreen.storyboard in Resources */,
+				B6AF183A1CA4E88E0006B02D /* Assets.xcassets in Resources */,
+				B6AF18381CA4E88E0006B02D /* Main.storyboard in Resources */,
+				402A2A731CA59CF300BC6077 /* Simulator Screen Shot Mar 25, 2016, 11.18.56 AM.png in Resources */,
+				402A2A711CA59CE300BC6077 /* Customizing Control.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AF182B1CA4E88E0006B02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AF18351CA4E88E0006B02D /* ViewController.swift in Sources */,
+				B6AF18331CA4E88E0006B02D /* AppDelegate.swift in Sources */,
+				40B020361CA5950500E2349E /* JMCRatingControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6AF18361CA4E88E0006B02D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AF18371CA4E88E0006B02D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6AF183B1CA4E88E0006B02D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AF183C1CA4E88E0006B02D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AF183F1CA4E88F0006B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6AF18401CA4E88F0006B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AF18421CA4E88F0006B02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ControlTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.izotx.ControlTest;
+				PRODUCT_NAME = JMCRatingControl;
+			};
+			name = Debug;
+		};
+		B6AF18431CA4E88F0006B02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ControlTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.izotx.ControlTest;
+				PRODUCT_NAME = JMCRatingControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AF182A1CA4E88E0006B02D /* Build configuration list for PBXProject "JMCRatingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AF183F1CA4E88F0006B02D /* Debug */,
+				B6AF18401CA4E88F0006B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AF18411CA4E88F0006B02D /* Build configuration list for PBXNativeTarget "JMCRatingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AF18421CA4E88F0006B02D /* Debug */,
+				B6AF18431CA4E88F0006B02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AF18271CA4E88E0006B02D /* Project object */;
+}
