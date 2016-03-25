@@ -1,5 +1,6 @@
 # JMCRatingControl
-Custom control that can be used as a rating for any kind of content.
+
+Custom control that can be used as a rating tool for any kind of content. It comes with two kinds of buttons: star and rectangular. You can also choose between single and multiple selection modes. Number of displayed buttons and selection mode can be controlled using IB insepector. Have fun
 
 <h3>Usage:</h3>
 * Create a copy of JMCRatingControl.swift to your project
